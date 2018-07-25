@@ -41,7 +41,7 @@ class Base(object):
             self.host = 'https://' + self.host
 
         self.auth = auth
-        self.api_url = self.host + '/api/v3'
+        self.api_url = self.host + '/api/v4'
         self.projects_url = self.api_url + '/projects'
         self.users_url = self.api_url + '/users'
         self.keys_url = self.api_url + '/user/keys'
